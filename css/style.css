@@ -28,3 +28,11 @@ li {
     padding: 15px 0;
     text-align: center;
 }
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-spin{
+    margin: 50px;
+}
