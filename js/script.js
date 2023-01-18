@@ -14,7 +14,6 @@ const app = Vue.createApp({
         }
     },
     mounted: function() {
-
         for(let i = 0; i < 10; i++) {
             this.getRandomEmail('emailList')
         }
