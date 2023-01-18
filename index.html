@@ -23,12 +23,13 @@
 </head>
 <body>
     <div id="root">
-        <i v-if="mail.lenght" class="fa-solid fa-spin fa-spinner fa-4x"></i>
-       <div v-else class="text">
-        <ul>
-            <li>{{mail}}</li>
-        </ul>
-       </div>
+        <h1>Lista Email</h1>
+        <div v-if="emailList.length == 10" class="email-list">
+            <ul>
+                <li v-for='(mail, i) in emailList'>{{mail}}</li>
+            </ul>
+        </div>
+        
     </div>
 </body>
 </html>
